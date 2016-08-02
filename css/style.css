@@ -1,0 +1,44 @@
+body {
+	font-size: 24px;
+}
+header {
+	text-align: center;
+	font-size: 24px;
+	font-family: Tahoma;
+	margin-bottom: 50px;
+}
+.menuLeft {
+	font-size: 0.5em;
+	width: 20%;
+	float: left;
+}
+#menuLeft a {
+	font-family: Tahoma;
+	text-shadow: 1px 1px green;
+}
+#tasks {
+	font-family: Tahoma;
+	font-size: 0.5em;
+	float: left;
+	width: 30%;
+}
+#tasks p {
+	text-decoration: underline;
+	padding-left: 40px;
+}
+#tasks ol > li {
+	list-style: decimal;
+}
+#Contacts {
+	font-family: Tahoma;
+	font-size: 0.5em;
+	float: left;
+	width: 30%;
+}
+#Contacts p {
+	text-decoration: underline;
+	padding-left: 40px;
+}
+#Contacts ul > li {
+	list-style: circle;
+}
